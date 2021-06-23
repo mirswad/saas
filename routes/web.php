@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/register', [Register::class, 'register']);
+Route::get('/login', [Register::class, 'login']);
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //     return view('dashboard');
 // })->name('dashboard');
